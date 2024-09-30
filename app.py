@@ -13,9 +13,9 @@ from multiprocessing import Process
 import threading
 from bs4 import BeautifulSoup
 stopuser = {}
-token = '6801259347:AAFPjxRHvs6kyfkIZw8EcKLoVUTMNlY4Du4'
+token = '7676837824:AAFYTtCi_ScOKkejyfo_87CSihuYDm5LIkk'
 bot=telebot.TeleBot(token,parse_mode="HTML")
-admin = 6498551799
+admin=7306006809#ايدي الادمن بدون علامات تنصيص
 command_usage = {}
 def reset_command_usage():
 	for user_id in command_usage:
@@ -46,35 +46,31 @@ def start(message):
 				json.dump(existing_data, json_file, ensure_ascii=False, indent=4)
 		if BL == '𝗙𝗥𝗘𝗘':	
 			keyboard = types.InlineKeyboardMarkup()
-			ahmedhusien = types.InlineKeyboardMarkup(row_width=1)
-			ahmed = types.InlineKeyboardButton(text="‌ 𝗢𝗪𝗡𝗘𝗥  ‌", url="https://t.me/BIMZ_XD")
-			contact_button = types.InlineKeyboardButton(text="‌ 𝘾𝙃𝘼𝙉𝙉𝙀𝙇  ‌", url="https://t.me/MYSTIC_NET")
-			keyboard.add(contact_button, ahmed)
-			video_url = f'https://t.me/ahmed_hussien_01/2'
-			bot.send_video(chat_id=message.chat.id, video=video_url, caption=f'''<b>𝑯𝑬𝑳𝑳𝑶 {name}
-𝑻𝑯𝑰𝑺 𝑷𝑨𝑹𝑻𝑰𝑪𝑼𝑳𝑨𝑹 𝑩𝑶𝑻 𝑰𝑺 𝑵𝑶𝑻 𝑭𝑹𝑬𝑬 
-𝑰𝑭 𝒀𝑶𝑼 𝑾𝑨𝑵𝑻 𝑻𝑶 𝑼𝑺𝑬 𝑰𝑻, 𝒀𝑶𝑼 𝑴𝑼𝑺𝑻 𝑷𝑼𝑹𝑪𝑯𝑨𝑺𝑬 𝑨 𝑾𝑬𝑬𝑲𝑳𝒀 𝑶𝑹 𝑴𝑶𝑵𝑻𝑯𝑳𝒀 𝑺𝑼𝑩𝑺𝑪𝑹𝑰𝑷𝑻𝑰𝑶𝑵 
+			contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me/BIMZ_XD")
+			keyboard.add(contact_button)
+			random_number = random.randint(33, 82)
+			photo_url = f'https://graph.org//file/9cc2c69a3066e3cac1022.jpg'
+			bot.send_photo(chat_id=message.chat.id, photo=photo_url, caption=f'''<b>𝑯𝑬𝑳𝑳𝑶
+{name}
 This Bot Is Checking Combo OF braintree Auth + Charge 
 ━━━━━━━━━━━━━━━━━
 VIP Plans Decribed Below
-7 Days - $5 / 425 Rs ⭐️
-<a href="https://t.me/MYSTIC_NET">FOR MORE DETAILS CLICK HERE</a>
+7 Days - $3 / 270 Rs ⭐️
+15 Days - $5 / 450 Rs ⭐️
+30 Days - $9 / 810 Rs ⭐️
 ━━━━━━━━━━━━━━━━━
 Payment Method USDT - UPI
 ━━━━━━━━━━━━━━━━━
-DM TO BUY @BIMZ_XD
-
-𝒀𝑶𝑼𝑹 𝑷𝑳𝑨𝑵 𝑵𝑶𝑾 {BL}</b>
+DM TO BUY @BIMZ_XD</b>
 	''',reply_markup=keyboard)
 			return
 		keyboard = types.InlineKeyboardMarkup()
-		contact_button = types.InlineKeyboardButton(text="‌ 𝗢𝗪𝗡𝗘𝗥 ‌", url="https://t.me/BIMZ_XD")
-		ahmed = types.InlineKeyboardButton(text="‌ 𝘾𝙃𝘼𝙉𝙉𝙀𝙇 ‌", url="https://t.me/MYSTIC_NET")
-		keyboard.add(contact_button, ahmed)
+		contact_button = types.InlineKeyboardButton(text="✨ 𝗝𝗢𝗜𝗡 ✨", url="https://t.me/+vstBSLYwoapmYzVl")
+		keyboard.add(contact_button)
 		username = message.from_user.first_name
 		random_number = random.randint(33, 82)
-		video_url = f'https://t.me/ahmed_hussien_01/2'
-		bot.send_video(chat_id=message.chat.id, video=video_url, caption='''𝘾𝙡𝙞𝙘𝙠 /cmds 𝙏𝙤 𝙑𝙞𝙚𝙬 𝙏𝙝𝙚 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨 𝙊𝙧 𝙎𝙚𝙣𝙙 𝙏𝙝𝙚 𝙁𝙞𝙡𝙚 𝘼𝙣𝙙 𝙄 𝙒𝙞𝙡𝙡 𝘾𝙝𝙚𝙘𝙠 𝙄𝙩''',reply_markup=keyboard)
+		photo_url = f'https://graph.org//file/9cc2c69a3066e3cac1022.jpg'
+		bot.send_photo(chat_id=message.chat.id, photo=photo_url, caption='''𝘾𝙡𝙞𝙘𝙠 /cmds 𝙏𝙤 𝙑𝙞𝙚𝙬 𝙏𝙝𝙚 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨 𝙊𝙧 𝙎𝙚𝙣𝙙 𝙏𝙝𝙚 𝙁𝙞𝙡𝙚 𝘼𝙣𝙙 𝙄 𝙒𝙞𝙡𝙡 𝘾𝙝𝙚𝙘𝙠 𝙄𝙩''',reply_markup=keyboard)
 	my_thread = threading.Thread(target=my_function)
 	my_thread.start()
 @bot.message_handler(commands=["cmds"])
@@ -92,8 +88,11 @@ def start(message):
 	bot.send_message(chat_id=message.chat.id, text=f'''<b> 
 𝗧𝗵𝗲𝘀𝗲 𝗔𝗿𝗲 𝗧𝗵𝗲 𝗕𝗼𝘁'𝗦 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀
 
-𝗕𝗿𝗮𝗶𝗻𝘁𝗿𝗲𝗲 𝗔𝘂𝘁𝗵 <code>/chk </code> 𝗻𝘂𝗺𝗯𝗲𝗿|𝗺𝗺|𝘆𝘆|𝗰𝘃𝗰
+𝗕𝗿𝗮𝗶𝗻𝘁𝗿𝗲𝗲 𝗔𝘂𝘁𝗵 ✅ <code>/chk </code> 𝗻𝘂𝗺𝗯𝗲𝗿|𝗺𝗺|𝘆𝘆|𝗰𝘃𝗰
 𝗦𝗧𝗔𝗧𝗨𝗦 𝗢𝗡𝗟𝗜𝗡𝗘 
+
+𝟯𝗗 𝗟𝗢𝗢𝗞𝗨𝗣 ❎ <code>/vbv </code> 𝗻𝘂𝗺𝗯𝗲𝗿|𝗺𝗺|𝘆𝘆|𝗰𝘃𝗰
+𝗢𝗡𝗟𝗜𝗡𝗘
 
 𝗪𝗲 𝗪𝗶𝗹𝗹 𝗕𝗲 𝗔𝗱𝗱𝗶𝗻𝗴 𝗦𝗼𝗺𝗲 𝗚𝗮𝘁𝗲𝘄𝗮𝘆𝘀 𝗔𝗻𝗱 𝗧𝗼𝗼𝗹𝘀 𝗦𝗼𝗼𝗻</b>
 ''',reply_markup=keyboard)
@@ -121,20 +120,20 @@ def main(message):
 			with open('data.json', 'w') as json_file:
 				json.dump(existing_data, json_file, ensure_ascii=False, indent=4)	
 			keyboard = types.InlineKeyboardMarkup()
-			contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="t.me/BIMZ_XD")
+			contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me/BIMZ_XD")
 			keyboard.add(contact_button)
-			bot.send_message(chat_id=message.chat.id, text=f'''<b>𝑯𝑬𝑳𝑳𝑶 {name}
-𝑻𝑯𝑰𝑺 𝑷𝑨𝑹𝑻𝑰𝑪𝑼𝑳𝑨𝑹 𝑩𝑶𝑻 𝑰𝑺 𝑵𝑶𝑻 𝑭𝑹𝑬𝑬 
+			bot.send_message(chat_id=message.chat.id, text=f'''<b>𝑯𝑬𝑳𝑳𝑶
+{name}
 This Bot Is Checking Combo OF braintree Auth + Charge 
 ━━━━━━━━━━━━━━━━━
 VIP Plans Decribed Below
-7 Days - $5 / 425 Rs ⭐️
-<a href="https://t.me/MYSTIC_NET">FOR MORE DETAILS CLICK HERE</a>
+7 Days - $3 / 270 Rs ⭐️
+15 Days - $5 / 450 Rs ⭐️
+30 Days - $9 / 810 Rs ⭐️
 ━━━━━━━━━━━━━━━━━
 Payment Method USDT - UPI
 ━━━━━━━━━━━━━━━━━
-DM TO BUY @BIMZ_XD
-𝒀𝑶𝑼𝑹 𝑷𝑳𝑨𝑵 𝑵𝑶𝑾 {BL}</b>
+DM TO BUY @BIMZ_XD</b>
 ''',reply_markup=keyboard)
 			return
 		with open('data.json', 'r') as file:
@@ -146,18 +145,18 @@ DM TO BUY @BIMZ_XD
 			keyboard = types.InlineKeyboardMarkup()
 			contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me/BIMZ_XD")
 			keyboard.add(contact_button)
-			bot.send_message(chat_id=message.chat.id, text=f'''<b>𝑯𝑬𝑳𝑳𝑶 {name}
-𝑻𝑯𝑰𝑺 𝑷𝑨𝑹𝑻𝑰𝑪𝑼𝑳𝑨𝑹 𝑩𝑶𝑻 𝑰𝑺 𝑵𝑶𝑻 𝑭𝑹𝑬𝑬 
+			bot.send_message(chat_id=message.chat.id, text=f'''<b>𝑯𝑬𝑳𝑳𝑶
+{name}
 This Bot Is Checking Combo OF braintree Auth + Charge 
 ━━━━━━━━━━━━━━━━━
 VIP Plans Decribed Below
-7 Days - $5 / 425 Rs ⭐️
-<a href="https://t.me/MYSTIC_NET">FOR MORE DETAILS CLICK HERE</a>
+7 Days - $3 / 270 Rs ⭐️
+15 Days - $5 / 450 Rs ⭐️
+30 Days - $9 / 810 Rs ⭐️
 ━━━━━━━━━━━━━━━━━
 Payment Method USDT - UPI
 ━━━━━━━━━━━━━━━━━
-DM TO BUY @BIMZ_XD
-𝒀𝑶𝑼𝑹 𝑷𝑳𝑨𝑵 𝑵𝑶𝑾 {BL}</b>
+DM TO BUY @BIMZ_XD</b>
 ''',reply_markup=keyboard)
 			return
 		current_time = datetime.now()
@@ -188,7 +187,7 @@ DM TO BUY @BIMZ_XD
 def menu_callback(call):
 	def my_function():
 		id=call.from_user.id
-		gate='𝘽𝙧𝙖𝙞𝙣𝙩𝙧𝙚𝙚 0.01$🔥'
+		gate='𝘽𝙧𝙖𝙞𝙣𝙩𝙧𝙚𝙚 𝘼𝙪𝙩𝙝'
 		dd = 0
 		live = 0
 		riskk = 0
@@ -206,7 +205,7 @@ def menu_callback(call):
 			}
 				for cc in lino:
 					if stopuser[f'{id}']['status'] == 'stop':
-						bot.edit_message_text(chat_id=call.chat.id, message_id=ko, text='𝗦𝗧𝗢𝗣𝗣𝗘𝗗 ✅\n𝗕𝗢𝗧 𝗕𝗬 ➜ @F2W_HACKERS')
+						bot.edit_message_text(chat_id=call.chat.id, message_id=ko, text='𝗦𝗧𝗢𝗣𝗣𝗘𝗗 ✅\n𝗕𝗢𝗧 𝗕𝗬 ➜ @BIMZ_XD')
 						return
 					try:
 						data = requests.get('https://lookup.binlist.net/'+cc[:6]).json()
@@ -263,37 +262,28 @@ def menu_callback(call):
 					bot.edit_message_text(chat_id=call.message.chat.id, 
 					  message_id=call.message.message_id, 
 					  text=f'''𝙋𝙡𝙚𝙖𝙨𝙚 𝙒𝙖𝙞𝙩 𝙒𝙝𝙞𝙡𝙚 𝙔𝙤𝙪𝙧 𝘾𝙖𝙧𝙙𝙨 𝘼𝙧𝙚 𝘽𝙚𝙞𝙣𝙜 𝘾𝙝𝙚𝙘𝙠 𝘼𝙩 𝙏𝙝𝙚 𝙂𝙖𝙩𝙚𝙬𝙖𝙮 {gate}
-𝘽𝙤𝙩 𝘽𝙮 @MYSTIC_NET''', reply_markup=mes)
-
-					msgc=f'''<b>𝗖𝗖𝗡 ☑️
+𝘽𝙤𝙩 𝘽𝙮 @BIMZ_XD''', reply_markup=mes)
 					
-• 𝙲𝙰𝚁𝙳 ⌁ <code>{cc}</code>
-• 𝙶𝙰𝚃𝙴𝚆𝙰𝚈 ⌁ {gate}	
-• 𝚁𝙴𝚂𝙿𝙾𝙽𝚂𝙴 ⌁ {last}
-• 𝙱𝙸𝙽 ⌁ {cc[:6]}
-• 𝙸𝙽𝙵𝙾 ⌁ {card_type} - {brand}
-• 𝙸𝚂𝚂𝚄𝙴𝚁 ⌁ {bank}
-• 𝙲𝙾𝚄𝙽𝚃𝚁𝚈 ⌁ {country} - {country_flag} 
-• 𝚃𝙸𝙼𝙴 ⌁ {"{:.1f}".format(execution_time)}
-- - - - - - - - - - - - - - - - - - - - - - - 
-• 𝐏𝐑𝐎𝐗𝐘 -» [ LIVE ✅ ]
-• 𝐃𝐄𝐕 -» <a href="tg://user?id=7306006809">⏤͟͞ ↯𝘽 𝙄 𝙈 𝙕⌁«~</a>
-• 𝙱𝙾𝚃 ➠ @MYSTIC_NET</b>'''
-					
-					msg=f'''<b>𝐀𝐮𝐭𝐡𝐨𝐫𝐢𝐳𝐞𝐝 ✅
+					msg=f'''<b>𝘼𝙥𝙥𝙧𝙤𝙫𝙚𝙙 ✅
 			
-𝘾𝘼𝙍𝘿 -» <code>{cc}</code>
-𝙎𝙏𝘼𝙏𝙐𝙎 -» {last}
-𝙂𝘼𝙏𝙀𝙒𝘼𝙔 -» {gate}		
-𝙄𝙉𝙁𝙊 -»{card_type} - {brand}
-𝘾𝙊𝙐𝙉𝙏𝙍𝙔 -» {country} - {country_flag} 
-𝘽𝙄𝙉 -» {cc[:6]}
-𝘽𝘼𝙉𝙆 -» {bank}
-𝙏𝙄𝙈𝙀 -» {"{:.1f}".format(execution_time)}⏳
-- - - - - - - - - - - - - - - - - - - - - - - 
-𝐏𝐑𝐎𝐗𝐘 -» [ LIVE ✅ ]
-𝐃𝐄𝐕 -» <a href="tg://user?id=7306006809">⏤͟͞ ↯𝘽 𝙄 𝙈 𝙕⌁«~</a>
-𝗕𝗼𝘁 -» @MYSTIC_NET</b>'''
+𝘾𝙖𝙧𝙙 ➼ <code>{cc}</code>
+𝙍𝙚𝙨𝙥𝙤𝙣𝙨𝙚 ➼ {last}
+𝙂𝙖𝙩𝙚𝙬𝙖𝙮 ➼ {gate}		
+𝘾𝙤𝙪𝙣𝙩𝙧𝙮 ➼ <code>{country} - {country_flag}</code> 
+𝘽𝙞𝙣 ➼ <code>{cc[:6]} - {card_type} - {brand}</code>
+𝙄𝙨𝙨𝙪𝙚𝙧 ➼ <code>{bank}</code>
+𝙏𝙞𝙢𝙚 ➼ {"{:.1f}".format(execution_time)}
+𝗕𝗼𝘁 : @BIMZ_XD</b>'''
+					msgc=f'''<b>𝘾𝘾𝙉 ☑️
+			
+𝘾𝙖𝙧𝙙 ➼ <code>{cc}</code>
+𝙍𝙚𝙨𝙥𝙤𝙣𝙨𝙚 ➼ {last}
+𝙂𝙖𝙩𝙚𝙬𝙖𝙮 ➼ {gate}		
+𝘾𝙤𝙪𝙣𝙩𝙧𝙮 ➼ <code>{country} - {country_flag}</code> 
+𝘽𝙞𝙣 ➼ <code>{cc[:6]} - {card_type} - {brand}</code>
+𝙄𝙨𝙨𝙪𝙚𝙧 ➼ <code>{bank}</code>
+𝙏𝙞𝙢𝙚 ➼ {"{:.1f}".format(execution_time)}
+𝗕𝗼𝘁 : @BIMZ_XD</b>'''
 					if "Funds" in last or 'Invalid postal' in last or 'avs' in last or 'added' in last or 'Duplicate' in last or 'Approved' in last:
 						live += 1
 						bot.send_message(call.from_user.id, msg)
@@ -301,16 +291,15 @@ def menu_callback(call):
 						risk+=1
 					elif 'CVV' in last:
 						ccnn+=1
-						bot.send_message(call.from_user.id, msgc)
 					else:
 						dd += 1
-					time.sleep(15)
+					time.sleep(20)
 		except Exception as e:
 			print(e)
 		stopuser[f'{id}']['status'] = 'start'
 		bot.edit_message_text(chat_id=call.message.chat.id, 
 					  message_id=call.message.message_id, 
-					  text='𝗕𝗘𝗘𝗡 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗘𝗗 ✅\n𝗕𝗢𝗧 𝗕𝗬 ➜ @MYSTIC_NET')
+					  text='𝗕𝗘𝗘𝗡 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗘𝗗 ✅\n𝗕𝗢𝗧 𝗕𝗬 ➜ @BIMZ_XD')
 	my_thread = threading.Thread(target=my_function)
 	my_thread.start()
 @bot.callback_query_handler(func=lambda call: call.data == 'sq')
@@ -335,7 +324,7 @@ def menu_callback(call):
 			}
 				for cc in lino:
 					if stopuser[f'{id}']['status'] == 'stop':
-						bot.edit_message_text(chat_id=call.chat.id, message_id=ko, text='𝗦𝗧𝗢𝗣𝗣𝗘𝗗 ✅\n𝗕𝗢𝗧 𝗕𝗬 ➜ @MYSTIC_NET')
+						bot.edit_message_text(chat_id=call.chat.id, message_id=ko, text='𝗦𝗧𝗢𝗣𝗣𝗘𝗗 ✅\n𝗕𝗢𝗧 𝗕𝗬 ➜ @BIMZ_XD')
 						return
 					try:
 						data = requests.get('https://lookup.binlist.net/'+cc[:6]).json()
@@ -392,23 +381,30 @@ def menu_callback(call):
 					bot.edit_message_text(chat_id=call.message.chat.id, 
 					  message_id=call.message.message_id, 
 					  text=f'''𝙋𝙡𝙚𝙖𝙨𝙚 𝙒𝙖𝙞𝙩 𝙒𝙝𝙞𝙡𝙚 𝙔𝙤𝙪𝙧 𝘾𝙖𝙧𝙙𝙨 𝘼𝙧𝙚 𝘽𝙚𝙞𝙣𝙜 𝘾𝙝𝙚𝙘𝙠 𝘼𝙩 𝙏𝙝𝙚 𝙂𝙖𝙩𝙚𝙬𝙖𝙮 {gate}
-𝘽𝙤𝙩 𝘽𝙮 @MYSTIC_NET''', reply_markup=mes)
+𝘽𝙤𝙩 𝘽𝙮 @BIMZ_XD''', reply_markup=mes)
 					
-					msg=f'''<b>𝐀𝐮𝐭𝐡𝐨𝐫𝐢𝐳𝐞𝐝 ✅
+					msg=f'''<b>𝘼𝙥𝙥𝙧𝙤𝙫𝙚𝙙 ✅
 			
-𝘾𝘼𝙍𝘿 -» <code>{cc}</code>
-𝙎𝙏𝘼𝙏𝙐𝙎 -» {last}
-𝙂𝘼𝙏𝙀𝙒𝘼𝙔 -» {gate}		
-𝙄𝙉𝙁𝙊 -»{card_type} - {brand}
-𝘾𝙊𝙐𝙉𝙏𝙍𝙔 -» {country} - {country_flag} 
-𝘽𝙄𝙉 -» {cc[:6]}
-𝘽𝘼𝙉𝙆 -» {bank}
-𝙏𝙄𝙈𝙀 -» {"{:.1f}".format(execution_time)}⏳
-- - - - - - - - - - - - - - - - - - - - - - - 
-𝐏𝐑𝐎𝐗𝐘 -» [ LIVE ✅ ]
-𝐃𝐄𝐕 -» <a href="tg://user?id=7306006809">⏤͟͞ ↯𝘽 𝙄 𝙈 𝙕⌁«~</a>
-𝐂𝐡𝐞𝐜𝐤𝐞𝐝 𝐁𝐲 -» <a href="tg://user?id={message.from_user.id}"> {message.from_user.first_name}</a>
-𝗕𝗼𝘁 : @MYSTIC_NET</b>'''
+𝘾𝙖𝙧𝙙 ➼ <code>{cc}</code>
+𝙍𝙚𝙨𝙥𝙤𝙣𝙨𝙚 ➼ {last}
+𝙂𝙖𝙩𝙚𝙬𝙖𝙮 ➼ {gate}		
+𝙄𝙣𝙛𝙤 ➼ {card_type} - {brand}
+𝘾𝙤𝙪𝙣𝙩𝙧𝙮 ➼ {country} - {country_flag} 
+𝘽𝙞𝙣 ➼ {cc[:6]}
+𝙄𝙨𝙨𝙪𝙚𝙧 ➼ {bank}
+𝙏𝙞𝙢𝙚 ➼ {"{:.1f}".format(execution_time)}
+𝗕𝗼𝘁 : @BIMZ_XD</b>'''
+					msgc=f'''<b>𝘾𝘾𝙉 ☑️
+			
+𝘾𝙖𝙧𝙙 ➼ <code>{cc}</code>
+𝙍𝙚𝙨𝙥𝙤𝙣𝙨𝙚 ➼ {last}
+𝙂𝙖𝙩𝙚𝙬𝙖𝙮 ➼ {gate}		
+𝘾𝙤𝙪𝙣𝙩𝙧𝙮 ➼ <code>{country} - {country_flag}</code> 
+𝘽𝙞𝙣 ➼ <code>{cc[:6]} - {card_type} - {brand}</code>
+𝙄𝙨𝙨𝙪𝙚𝙧 ➼ <code>{bank}</code>
+𝙏𝙞𝙢𝙚 ➼ {"{:.1f}".format(execution_time)}
+𝗕𝗼𝘁 : @BIMZ_XD</b>'''
+					
 					if "Funds" in last or 'Invalid postal' in last or 'avs' in last or 'added' in last or 'Duplicate' in last or 'Approved' in last:
 						live += 1
 						bot.send_message(call.from_user.id, msg)
@@ -418,18 +414,18 @@ def menu_callback(call):
 						ccnn+=1
 					else:
 						dd += 1
-					time.sleep(10)
+					time.sleep(20)
 		except Exception as e:
 			print(e)
 		stopuser[f'{id}']['status'] = 'start'
 		bot.edit_message_text(chat_id=call.message.chat.id, 
 					  message_id=call.message.message_id, 
-					  text='𝗕𝗘𝗘𝗡 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗘𝗗 ✅\n𝗕𝗢𝗧 𝗕𝗬 ➜ @MYSTIC_NET')
+					  text='𝗕𝗘𝗘𝗡 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗘𝗗 ✅\n𝗕𝗢𝗧 𝗕𝗬 ➜ @BIMZ_XD')
 	my_thread = threading.Thread(target=my_function)
 	my_thread.start()
 @bot.message_handler(func=lambda message: message.text.lower().startswith('.chk') or message.text.lower().startswith('/chk'))
 def respond_to_vbv(message):
-	gate='𝘽𝙧𝙖𝙞𝙣𝙩𝙧𝙚𝙚 0.01$🔥 '
+	gate='𝗕𝗥𝗔𝗜𝗡𝗧𝗥𝗘𝗘 𝗔𝗨𝗧𝗛 '
 	name = message.from_user.first_name
 	idt=message.from_user.id
 	id=message.chat.id
@@ -454,19 +450,19 @@ def respond_to_vbv(message):
 		keyboard = types.InlineKeyboardMarkup()
 		contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me/BIMZ_XD")
 		keyboard.add(contact_button)
-		bot.send_message(chat_id=message.chat.id, text=f'''<b>𝑯𝑬𝑳𝑳𝑶 {name}
-𝑻𝑯𝑰𝑺 𝑷𝑨𝑹𝑻𝑰𝑪𝑼𝑳𝑨𝑹 𝑩𝑶𝑻 𝑰𝑺 𝑵𝑶𝑻 𝑭𝑹𝑬𝑬 
+		bot.send_message(chat_id=message.chat.id, text=f'''<b>𝑯𝑬𝑳𝑳𝑶
+{name}
 This Bot Is Checking Combo OF braintree Auth + Charge 
 ━━━━━━━━━━━━━━━━━
 VIP Plans Decribed Below
-7 Days - $5 / 425 Rs ⭐️
-<a href="https://t.me/MYSTIC_NET">FOR MORE DETAILS CLICK HERE</a>
+
+7 Days - $3 / 270 Rs ⭐️
+15 Days - $5 / 450 Rs ⭐️
+30 Days - $9 / 810 Rs ⭐️
 ━━━━━━━━━━━━━━━━━
 Payment Method USDT - UPI
 ━━━━━━━━━━━━━━━━━
-DM TO BUY @BIMZ_XD
-
-𝒀𝑶𝑼𝑹 𝑷𝑳𝑨𝑵 𝑵𝑶𝑾 {BL}</b>
+DM TO BUY @BIMZ_XD </b>
 ''',reply_markup=keyboard)
 		return
 	with open('data.json', 'r') as file:
@@ -478,18 +474,19 @@ DM TO BUY @BIMZ_XD
 		keyboard = types.InlineKeyboardMarkup()
 		contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me/BIMZ_XD")
 		keyboard.add(contact_button)
-		bot.send_message(chat_id=message.chat.id, text=f'''<b>𝑯𝑬𝑳𝑳𝑶 {name}
-𝑻𝑯𝑰𝑺 𝑷𝑨𝑹𝑻𝑰𝑪𝑼𝑳𝑨𝑹 𝑩𝑶𝑻 𝑰𝑺 𝑵𝑶𝑻 𝑭𝑹𝑬𝑬 
+		bot.send_message(chat_id=message.chat.id, text=f'''<b>𝑯𝑬𝑳𝑳𝑶
+{name}
 This Bot Is Checking Combo OF braintree Auth + Charge 
 ━━━━━━━━━━━━━━━━━
 VIP Plans Decribed Below
-7 Days - $5 / 425 Rs ⭐️
-<a href="https://t.me/MYSTIC_NET">FOR MORE DETAILS CLICK HERE</a>
+
+7 Days - $3 / 270 Rs ⭐️
+15 Days - $5 / 450 Rs ⭐️
+30 Days - $9 / 810 Rs ⭐️
 ━━━━━━━━━━━━━━━━━
 Payment Method USDT - UPI
 ━━━━━━━━━━━━━━━━━
-DM TO BUY @BIMZ_XD
-𝒀𝑶𝑼𝑹 𝑷𝑳𝑨𝑵 𝑵𝑶𝑾 {BL}</b>
+DM TO BUY @BIMZ_XD</b>
 ''',reply_markup=keyboard)
 		return
 	current_time = datetime.now()
@@ -555,36 +552,30 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 		bank = 'Unknown'
 	end_time = time.time()
 	execution_time = end_time - start_time
-	msg=f'''<b>𝐀𝐮𝐭𝐡𝐨𝐫𝐢𝐳𝐞𝐝 ✅
+	msg=f'''<b>𝘼𝙥𝙥𝙧𝙤𝙫𝙚𝙙 ✅
 			
-𝘾𝘼𝙍𝘿 -» <code>{cc}</code>
-𝙎𝙏𝘼𝙏𝙐𝙎 -» {last}
-𝙂𝘼𝙏𝙀𝙒𝘼𝙔 -» {gate}		
-𝙄𝙉𝙁𝙊 -»{card_type} - {brand}
-𝘾𝙊𝙐𝙉𝙏𝙍𝙔 -» {country} - {country_flag} 
-𝘽𝙄𝙉 -» {cc[:6]}
-𝘽𝘼𝙉𝙆 -» {bank}
-𝙏𝙄𝙈𝙀 -» {"{:.1f}".format(execution_time)}⏳
-- - - - - - - - - - - - - - - - - - - - - - - 
-𝐏𝐑𝐎𝐗𝐘 -» [ LIVE ✅ ]
-𝐃𝐄𝐕 -» <a href="tg://user?id=7306006809">⏤͟͞ ↯𝘽 𝙄 𝙈 𝙕⌁«~</a>
-𝐂𝐡𝐞𝐜𝐤𝐞𝐝 𝐁𝐲 -» <a href="tg://user?id={message.from_user.id}"> {message.from_user.first_name}</a>
-𝗕𝗼𝘁 : @MYSTIC_NET</b>'''
+𝘾𝙖𝙧𝙙 ➼ <code>{cc}</code>
+𝙍𝙚𝙨𝙥𝙤𝙣𝙨𝙚 ➼ {last}
+𝙂𝙖𝙩𝙚𝙬𝙖𝙮 ➼ {gate}		
+𝙄𝙣𝙛𝙤 ➼ {card_type} - {brand}
+𝘾𝙤𝙪𝙣𝙩𝙧𝙮 ➼ {country} - {country_flag} 
+𝘽𝙞𝙣 ➼ {cc[:6]}
+𝙄𝙨𝙨𝙪𝙚𝙧 ➼ {bank}
+𝙏𝙞𝙢𝙚 ➼ {"{:.1f}".format(execution_time)}
+𝑪𝒉𝒆𝒄𝒌 𝑩𝒚 ➼ {name}
+𝗕𝗼𝘁 : @BIMZ_XD</b>'''
 	msgd=f'''<b>𝘿𝙚𝙘𝙡𝙞𝙣𝙚𝙙 ❌
 			
-𝘾𝘼𝙍𝘿 -» <code>{cc}</code>
-𝙎𝙏𝘼𝙏𝙐𝙎 -» {last}
-𝙂𝘼𝙏𝙀𝙒𝘼𝙔 -» {gate}		
-𝙄𝙉𝙁𝙊 -»{card_type} - {brand}
-𝘾𝙊𝙐𝙉𝙏𝙍𝙔 -» {country} - {country_flag} 
-𝘽𝙄𝙉 -» {cc[:6]}
-𝘽𝘼𝙉𝙆 -» {bank}
-𝙏𝙄𝙈𝙀 -» {"{:.1f}".format(execution_time)}⏳
-- - - - - - - - - - - - - - - - - - - - - - - 
-𝐏𝐑𝐎𝐗𝐘 -» [ LIVE ✅ ]
-𝐃𝐄𝐕 -» <a href="tg://user?id=7306006809">⏤͟͞ ↯𝘽 𝙄 𝙈 𝙕⌁«~</a>
-𝐂𝐡𝐞𝐜𝐤𝐞𝐝 𝐁𝐲 -» <a href="tg://user?id={message.from_user.id}"> {message.from_user.first_name}</a>
-𝗕𝗼𝘁 : @MYSTIC_NET</b>'''
+𝘾𝙖𝙧𝙙 ➼ <code>{cc}</code>
+𝙍𝙚𝙨𝙥𝙤𝙣𝙨𝙚 ➼ {last}
+𝙂𝙖𝙩𝙚𝙬𝙖𝙮 ➼ {gate}		
+𝙄𝙣𝙛𝙤 ➼ {card_type} - {brand}
+𝘾𝙤𝙪𝙣𝙩𝙧𝙮 ➼ {country} - {country_flag} 
+𝘽𝙞𝙣 ➼ {cc[:6]}
+𝙄𝙨𝙨𝙪𝙚𝙧 ➼ {bank}
+𝙏𝙞𝙢𝙚 ➼ {"{:.1f}".format(execution_time)}
+𝑪𝒉𝒆𝒄𝒌 𝑩𝒚 ➼ {name}
+𝗕𝗼𝘁 : @BIMZ_XD</b>'''
 	if "Funds" in last or 'Invalid postal' in last or 'avs' in last or 'added' in last or 'Duplicate' in last or 'Approved' in last:
 		bot.edit_message_text(chat_id=message.chat.id, message_id=ko, text=msg)
 	else:
@@ -608,7 +599,7 @@ def respond_to_vbv(message):
 			del data[re]
 			with open('data.json', 'w') as json_file:
 				json.dump(data, json_file, ensure_ascii=False, indent=4)
-			msg=f'''<b>F2WBOT 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗕𝗘𝗗 ✅
+			msg=f'''<b>TOME VIP 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗕𝗘𝗗 ✅
 𝑺𝑼𝑩𝑺𝑪𝑹𝑰𝑷𝑻𝑰𝑶𝑵 𝗘𝗫𝗣𝗜𝗥𝗘𝗦 𝗜𝗡 ➜ {timer}
 𝗧𝗬𝗣 ➜ {typ}</b>'''
 			bot.reply_to(message,msg,parse_mode="HTML")
@@ -628,7 +619,7 @@ def start(message):
 			with open('data.json', 'r') as json_file:
 				existing_data = json.load(json_file)
 			characters = string.ascii_uppercase + string.digits
-			pas ='F2W-'+''.join(random.choices(characters, k=4))+'-'+''.join(random.choices(characters, k=4))+'-'+''.join(random.choices(characters, k=4))
+			pas ='WARRIOR-'+''.join(random.choices(characters, k=4))+'-'+''.join(random.choices(characters, k=4))+'-'+''.join(random.choices(characters, k=4))
 			current_time = datetime.now()
 			ig = current_time + timedelta(hours=h)
 			plan='𝗩𝗜𝗣'
@@ -651,7 +642,8 @@ def start(message):
 𝗘𝗫𝗣𝗜𝗥𝗘𝗦 𝗜𝗡 ➜ {ig}
 𝗞𝗘𝗬 ➜ <code>{pas}</code>
 		
-𝗨𝗦𝗘 /redeem [𝗞𝗘𝗬]</b>'''
+𝗨𝗦𝗘 /redeem [𝗞𝗘𝗬]
+𝗕𝗼𝘁 : @BIMZ_XD</b>'''
 			bot.reply_to(message,msg,parse_mode="HTML")
 		except Exception as e:
 			print('ERROR : ',e)
@@ -683,18 +675,19 @@ def respond_to_vbv(message):
 		keyboard = types.InlineKeyboardMarkup()
 		contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me/BIMZ_XD")
 		keyboard.add(contact_button)
-		bot.send_message(chat_id=message.chat.id, text=f'''<b>𝑯𝑬𝑳𝑳𝑶 {name}
-𝑻𝑯𝑰𝑺 𝑷𝑨𝑹𝑻𝑰𝑪𝑼𝑳𝑨𝑹 𝑩𝑶𝑻 𝑰𝑺 𝑵𝑶𝑻 𝑭𝑹𝑬𝑬 
+		bot.send_message(chat_id=message.chat.id, text=f'''<b>𝑯𝑬𝑳𝑳𝑶
+{name}
 This Bot Is Checking Combo OF braintree Auth + Charge 
 ━━━━━━━━━━━━━━━━━
 VIP Plans Decribed Below
-7 Days - $5 / 425 Rs ⭐️
-<a href="https://t.me/MYSTIC_NET">FOR MORE DETAILS CLICK HERE</a>
+
+7 Days - $3 / 270 Rs ⭐️
+15 Days - $5 / 450 Rs ⭐️
+30 Days - $9 / 810 Rs ⭐️
 ━━━━━━━━━━━━━━━━━
 Payment Method USDT - UPI
 ━━━━━━━━━━━━━━━━━
-DM TO BUY @BIMZ_XD
-𝒀𝑶𝑼𝑹 𝑷𝑳𝑨𝑵 𝑵𝑶𝑾 {BL}</b>
+DM TO BUY @BIMZ_XD </b>
 ''',reply_markup=keyboard)
 		return
 	with open('data.json', 'r') as file:
@@ -706,18 +699,19 @@ DM TO BUY @BIMZ_XD
 		keyboard = types.InlineKeyboardMarkup()
 		contact_button = types.InlineKeyboardButton(text="✨ 𝗢𝗪𝗡𝗘𝗥  ✨", url="https://t.me/BIMZ_XD")
 		keyboard.add(contact_button)
-		bot.send_message(chat_id=message.chat.id, text=f'''<b>𝑯𝑬𝑳𝑳𝑶 {name}
-𝑻𝑯𝑰𝑺 𝑷𝑨𝑹𝑻𝑰𝑪𝑼𝑳𝑨𝑹 𝑩𝑶𝑻 𝑰𝑺 𝑵𝑶𝑻 𝑭𝑹𝑬𝑬 
+		bot.send_message(chat_id=message.chat.id, text=f'''<b>𝑯𝑬𝑳𝑳𝑶
+{name}
 This Bot Is Checking Combo OF braintree Auth + Charge 
 ━━━━━━━━━━━━━━━━━
 VIP Plans Decribed Below
-7 Days - $5 / 425 Rs ⭐️
-<a href="https://t.me/MYSTIC_NET">FOR MORE DETAILS CLICK HERE</a>
+
+7 Days - $3 / 270 Rs ⭐️
+15 Days - $5 / 450 Rs ⭐️
+30 Days - $9 / 810 Rs ⭐️
 ━━━━━━━━━━━━━━━━━
 Payment Method USDT - UPI
 ━━━━━━━━━━━━━━━━━
-DM TO BUY @BIMZ_XD
-𝒀𝑶𝑼𝑹 𝑷𝑳𝑨𝑵 𝑵𝑶𝑾 {BL}</b>
+DM TO BUY @BIMZ_XD  </b>
 ''',reply_markup=keyboard)
 		return
 	current_time = datetime.now()
@@ -779,28 +773,28 @@ Card: XXXXXXXXXXXXXXXX|MM|YYYY|CVV</b>''',parse_mode="HTML")
 	execution_time = end_time - start_time
 	msg=f'''<b>𝙋𝙖𝙨𝙨𝙚𝙙 ✅
 			
-𝘾𝘼𝙍𝘿 -» <code>{cc}</code>
-𝙎𝙏𝘼𝙏𝙐𝙎 -» {last}
-𝙂𝘼𝙏𝙀𝙒𝘼𝙔 -» {gate}		
-𝙄𝙉𝙁𝙊 -»{card_type} - {brand}
-𝘾𝙊𝙐𝙉𝙏𝙍𝙔 -» {country} - {country_flag} 
-𝘽𝙄𝙉 -» {cc[:6]}
-𝘽𝘼𝙉𝙆 -» {bank}
-𝙏𝙄𝙈𝙀 -» {"{:.1f}".format(execution_time)}⏳
-𝐃𝐄𝐕 -» <a href="tg://user?id=7306006809">⏤͟͞ ↯𝘽 𝙄 𝙈 𝙕⌁«~</a>
-𝗕𝗼𝘁 : @MYSTIC_NET</b>'''
+𝘾𝙖𝙧𝙙 ➼ <code>{cc}</code>
+𝙍𝙚𝙨𝙥𝙤𝙣𝙨𝙚 ➼ {last}
+𝙂𝙖𝙩𝙚𝙬𝙖𝙮 ➼ {gate}		
+𝙄𝙣𝙛𝙤 ➼ {card_type} - {brand}
+𝘾𝙤𝙪𝙣𝙩𝙧𝙮 ➼ {country} - {country_flag} 
+𝘽𝙞𝙣 ➼ {cc[:6]}
+𝙄𝙨𝙨𝙪𝙚𝙧 ➼ {bank}
+𝙏𝙞𝙢𝙚 ➼ {"{:.1f}".format(execution_time)}
+𝑪𝒉𝒆𝒄𝒌 𝑩𝒚 ➼ {name}
+𝗕𝗼𝘁 : @BIMZ_XD</b>'''
 	msgd=f'''<b>𝗥𝗲𝗷𝗲𝗰𝘁𝗲𝗱 ❌
 			
-𝘾𝘼𝙍𝘿 -» <code>{cc}</code>
-𝙎𝙏𝘼𝙏𝙐𝙎 -» {last}
-𝙂𝘼𝙏𝙀𝙒𝘼𝙔 -» {gate}		
-𝙄𝙉𝙁𝙊 -»{card_type} - {brand}
-𝘾𝙊𝙐𝙉𝙏𝙍𝙔 -» {country} - {country_flag} 
-𝘽𝙄𝙉 -» {cc[:6]}
-𝘽𝘼𝙉𝙆 -» {bank}
-𝙏𝙄𝙈𝙀 -» {"{:.1f}".format(execution_time)}⏳
-𝐃𝐄𝐕 -» <a href="tg://user?id=7306006809">⏤͟͞ ↯𝘽 𝙄 𝙈 𝙕⌁«~</a>
-𝗕𝗼𝘁 : @MYSTIC_NETt</b>'''
+𝘾𝙖𝙧𝙙 ➼ <code>{cc}</code>
+𝙍𝙚𝙨𝙥𝙤𝙣𝙨𝙚 ➼ {last}
+𝙂𝙖𝙩𝙚𝙬𝙖𝙮 ➼ {gate}		
+𝙄𝙣𝙛𝙤 ➼ {card_type} - {brand}
+𝘾𝙤𝙪𝙣𝙩𝙧𝙮 ➼ {country} - {country_flag} 
+𝘽𝙞𝙣 ➼ {cc[:6]}
+𝙄𝙨𝙨𝙪𝙚𝙧 ➼ {bank}
+𝙏𝙞𝙢𝙚 ➼ {"{:.1f}".format(execution_time)}
+𝑪𝒉𝒆𝒄𝒌 𝑩𝒚 ➼ {name}
+𝗕𝗼𝘁 : @BIMZ_XD</b>'''
 	if 'Authenticate Attempt Successful' in last or 'Authenticate Successful' in last or 'authenticate_successful' in last:
 		bot.edit_message_text(chat_id=message.chat.id, message_id=ko, text=msg)
 	else:
